@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:background="@drawable/bg_user">
+
+        <TextView
+            android:id="@+id/item_user_list_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center_vertical"
+            android:text="2020-01-07 09:20:20"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_user_list_total"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="21/2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/itemTextSize" />
+
+        <TextView
+            android:id="@+id/item_user_list_correct"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="80%"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/itemTextSize" />
+
+        <TextView
+            android:id="@+id/item_user_list_time_mode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="60S"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/itemTextSize" />
+
+        <TextView
+            android:id="@+id/item_user_list_hole_mode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="裸眼"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/itemTextSize" />
+
+        <TextView
+            android:id="@+id/item_user_list_eye_mode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="OD"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/itemTextSize" />
+
+    </LinearLayout>
+
+</RelativeLayout>

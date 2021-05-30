@@ -1,0 +1,1 @@
+package com.moptim.easyvat.ble;public enum EventWhat {    S_START_SCAN,    S_STOP_SCAN,    S_CONNECT,    S_AUTO_CONNECT,    S_DISCONNECT,    S_WRITE_DATA,    STATUS_DISCOVER,    STATUS_CONNECT,    STATUS_DISCONNECT,    STATUS_READ_DATA}

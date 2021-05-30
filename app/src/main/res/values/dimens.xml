@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="padding">5dp</dimen><!--控件距离左右边距-->
+    <dimen name="margin">5dp</dimen><!--控件距离左右边距pad-->
+
+    <dimen name="textSize">18sp</dimen><!--控件文字大小-->
+    <dimen name="itemTextSize">18sp</dimen>
+
+    <dimen name="itemRadius">18sp</dimen>
+
+    <dimen name="RlHeight">140dp</dimen>
+    <dimen name="RlPadding">5dp</dimen>
+
+</resources>

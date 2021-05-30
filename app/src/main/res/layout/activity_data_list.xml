@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="查询"/>
+
+        <Spinner
+            android:id="@+id/sp_data_list_selector"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/padding"
+            android:background="@drawable/shape_item"
+            android:entries="@array/selector_all"/>
+
+        <LinearLayout
+            android:id="@+id/ly_data_list_selector_condition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="查询条件"/>
+
+            <!-- 姓名查询 -->
+            <EditText
+                android:id="@+id/edit_data_list_select"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingStart="@dimen/padding"
+                android:background="@drawable/shape_item"
+                android:visibility="gone"/>
+
+            <!-- 时间查询 -->
+            <LinearLayout
+                android:id="@+id/ly_data_list_time_selector"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_data_list_start_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_item"
+                    android:text="开始时间"/>
+
+                <TextView
+                    android:id="@+id/tv_data_list_end_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/shape_item"
+                    android:text="结束时间"/>
+
+                <Button
+                    android:id="@+id/bt_data_list_query_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin"
+                    android:background="@drawable/shape_button"
+                    android:text="查询"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_data_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

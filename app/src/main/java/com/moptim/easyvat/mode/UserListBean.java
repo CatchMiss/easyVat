@@ -1,0 +1,1 @@
+package com.moptim.easyvat.mode;import java.util.ArrayList;public class UserListBean {    public UserBean user;    public ArrayList<DataBean> data;    public UserListBean(UserBean user, ArrayList<DataBean> data){        this.user = user;        this.data = data;    }}

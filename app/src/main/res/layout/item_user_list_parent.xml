@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:orientation="vertical"
+        android:background="@drawable/bg_user">
+
+        <!-- 编号 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编号"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="20200612092801"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+        </LinearLayout>
+
+        <!--姓名-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="姓名"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="李"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+        </LinearLayout>
+
+        <!--性别,年龄-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="性别"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_gender"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="男"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="年龄"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_age"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="15"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+        </LinearLayout>
+
+        <!--学校-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="学校"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_school"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="X X X X中学"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="年纪"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_grade"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="初二"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="班级"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+
+            <TextView
+                android:id="@+id/item_user_list_class"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingStart="10dp"
+                android:text="193班"
+                android:textColor="@color/white"
+                android:textSize="@dimen/itemTextSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

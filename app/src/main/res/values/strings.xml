@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">视力筛查</string>
+
+    <string name="fastMode">快速模式</string>
+    <string name="normalMode">普通模式</string>
+    <string name="standardMode">标准模式</string>
+
+    <string name="fastTime">30S</string>
+    <string name="normalTime">60S</string>
+    <string name="standardTime">3Min</string>
+    <string name="userList">用户信息</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="dataList">测试信息</string>
+    <string name="bake_eye">裸眼视力</string>
+    <string name="corrective">矫正视力</string>
+    <string name="OD">右眼</string>
+    <string name="OS">左眼</string>
+    <string name="OU">双眼</string>
+
+    <string name="scan_tips">\"将条形码/二维码图片对准扫描框即可自动扫描\"</string>
+
+    <string-array name="selector_all">   <!--数组资源名称为list 与layout中对应-->
+        <item>全部</item>
+        <item>姓名</item>
+        <item>时间</item>
+    </string-array>
+
+    <string-array name="selector_lite">
+        <item>全部</item>
+        <item>编号</item>
+        <item>姓名</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

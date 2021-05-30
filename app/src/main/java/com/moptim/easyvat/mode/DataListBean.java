@@ -1,0 +1,1 @@
+package com.moptim.easyvat.mode;public class DataListBean {    public DataBean dataBean;    public String name;    public DataListBean(String name, DataBean bean){        this.name = name;        this.dataBean = bean;    }}
